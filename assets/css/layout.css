@@ -1,0 +1,57 @@
+@import './fonts.css';
+@import './reset.css';
+@import './common.css';
+
+.wrapper{ max-width: 1025px; margin: 0 auto; background: #fff; overflow-x: hidden; }
+
+.skip-nav{ position: relative; z-index: 10; }
+.skip-nav a{ position: absolute; top: -30px; line-height: 30px; background: #ccc; }
+.skip-nav a:focus,
+.skip-nav a:active{ top: 0; }
+
+
+.header{ display: flex; flex-direction: column; position: fixed; top: 0; width: 100%; max-width: 1025px; z-index: 15; background: #fff; }
+.header .group-flex{ display: flex; justify-content: space-between; align-items: center; height: 56px; padding-left: 15px; padding-right: 10px; }
+.header .logo a{ display: flex; display: block; width: 80px; height: 24px; }
+.header .util-area{ display: flex; gap: 16px; }
+
+.gnb{border-bottom: 1px solid #dedede;}
+.gnb .nav-list{ display: flex; gap: 24px; margin: 0 15px; }
+.gnb .nav-item{ position: relative; }
+.gnb .nav-item svg{ position: absolute; top: 2px; right: 4px; }
+.gnb .nav-item .nav{ display: block; padding: 11px 4px 8px; font-size: 16px; height: 44px; color: #7a7a7a; }
+.gnb .nav-item .nav.active{ position: relative; font-weight: 700; color: #000; }
+.gnb .nav-item .nav.active::before{ position: absolute; bottom: 1px; left: 0; right: 0; height: 2px; background: #000; content: ''; }
+
+.footer.common-inner{ display: flex; flex-direction: column; width: 100%; padding-top: 35px; padding-bottom: 35px; border-top: 1px solid rgba(0, 0, 0, .1); }
+.footer .group-info{ margin-bottom: 20px; }
+.footer .corp-area{ display: flex; flex-direction: column; gap: 9px; margin-bottom: 20px; }
+.footer .corp-list{ display: flex; gap: 20px; font-size: 13px; line-height: 18px; color: #222; }
+.footer .corp-list li+li::before{ position: absolute; top: 3px; left: -10px; width: 1px; height: 13px; background: #000; content: ''; opacity: 0.1; }
+.footer .corp-item{ position: relative; }
+.footer .corp-item strong{ font-weight: 700; }
+.footer .addr-area{ font-size: 12px; color: #999; }
+
+/* on */
+.footer .addr-area.on .btn-addr .ic-arrow{ transform: rotate(180deg); }
+.footer .addr-area.on .addr-box{ display: block; }
+.footer .addr-area.on .addr-box > div{ display: flex; }
+
+.footer .addr-area .btn-addr{ display: flex; align-items: center; gap:4px; line-height: 16px; }
+.footer .addr-area .addr-box{ display: none; margin: 5px 0 20px; line-height: 1.4; }
+.footer .addr-area .addr-box .line{ position: relative; }
+.footer .addr-area .addr-box .line::before{ position: absolute; bottom: 0; left: 0; right: 0; height: 1px; content: ''; background: #999; }
+.footer .addr-area .addr-box i.bar{ display: inline-block; vertical-align: top; width: 1px; height: 11px; margin: 0 7px; margin-top: 3px; background: #999; }
+.footer .addr-area .copy{ line-height: 22px; }
+
+
+
+
+/* PC 1280px ~ [1025px] */
+@media (max-width:1280px) {}
+
+/* 태블릿 1024px ~ [768px] */
+@media (max-width:1024px) {}
+
+/* 모바일 767px ~ [320px] */
+@media (max-width:767px) {}

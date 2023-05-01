@@ -1,0 +1,36 @@
+{
+    "items":[
+        {
+            "id":1,
+            "thumb":"./assets/images/event-1.png",
+            "title":{
+                "name":"원작은 모르겠고, 먹고 살기도 바쁩니다"
+            },
+            "desc":"3다무로 신작 론칭! 캐시 이벤트도 2배"
+        },
+        {
+            "id":1,
+            "thumb":"./assets/images/event-2.png",
+            "title":{
+                "name":"구룡전기"
+            },
+            "desc":"론칭 기념 캐시이벤트!"
+        },
+        {
+            "id":1,
+            "thumb":"./assets/images/event-3.png",
+            "title":{
+                "name":"호랑낭자뎐"
+            },
+            "desc":"런칭 기념, 3다무+캐시 이벤트!"
+        },
+        {
+            "id":1,
+            "thumb":"./assets/images/event-4.png",
+            "title":{
+                "name":"로맨스 완전판 플레이리스트"
+            },
+            "desc":"매일 새로운 작품 열람 플레이!"
+        }
+    ]
+}

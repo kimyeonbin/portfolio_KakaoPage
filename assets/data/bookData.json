@@ -1,0 +1,54 @@
+{
+    "items":[
+        {
+            "id":1,
+            "thumb":"./assets/images/book-1.png",
+            "title":{
+                "name":"호랑낭자 뎐",
+                "img":"./assets/images/book-1-2.png"
+            },
+            "desc":"노블코믹 론칭 기념 외전 up!",
+            "nobadge":false,
+            "snippet":{
+                "wait3":true,
+                "wait":false,
+                "event":true,
+                "new":false,
+                "free":false,
+                "age":0,
+                "up":false,
+                "theme":4,
+                "cate":"문학",
+                "info":"",
+                "dot1":true,
+                "dot2":false,
+                "relation":false
+            }
+        },
+        {
+            "id":1,
+            "thumb":"./assets/images/book-2.png",
+            "title":{
+                "name":"물에 갇힌 물고기",
+                "img":"./assets/images/book-2-2.png"
+            },
+            "desc":"그 시절, 우리에게도 꿈이 있었다!",
+            "nobadge":false,
+            "snippet":{
+                "wait3":false,
+                "wait":true,
+                "event":false,
+                "new":false,
+                "free":false,
+                "age":0,
+                "up":true,
+                "theme":4,
+                "cate":"문학",
+                "info":"",
+                "dot1":true,
+                "dot2":false,
+                "relation":false
+            }
+        }
+    ]
+}

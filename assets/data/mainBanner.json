@@ -1,0 +1,104 @@
+{
+    "items":[
+        {
+            "id":1,
+            "thumb":"./assets/images/main.png",
+            "title":{
+                "name":"이번 생은 가주가 되겠습니다",
+                "img":"./assets/images/main-2.png"
+            },
+            "desc":"이렇게 된 거 다 내 거다!",
+            "nobadge":false,
+            "snippet":{
+                "wait3":true,
+                "wait":false,
+                "event":false,
+                "new":false,
+                "free":false,
+                "age":0,
+                "up":true,
+                "theme":1,
+                "cate":"로판",
+                "info":"1억",
+                "dot1":true,
+                "dot2":true,
+                "relation":true
+            }
+        },
+        {
+            "id":1,
+            "thumb":"./assets/images/main2.png",
+            "title":{
+                "name":"주말 추천작 보기만 해도 캐시선물!",
+                "img":"./assets/images/main2-2.png"
+            },
+            "desc":"HOT 작품들 보고 캐시 선물 받자!",
+            "nobadge":true,
+            "snippet":{
+                "wait3":false,
+                "wait":false,
+                "event":false,
+                "new":false,
+                "free":false,
+                "age":0,
+                "up":false,
+                "theme":0,
+                "cate":"",
+                "info":"",
+                "dot1":false,
+                "dot2":false,
+                "relation":false
+            }
+        },
+        {
+            "id":1,
+            "thumb":"./assets/images/main3.png",
+            "title":{
+                "name":"취준끝에 재벌2세",
+                "img":"./assets/images/main3-2.png"
+            },
+            "desc":"다 줄게, 네가 받아야 할 모든 걸",
+            "nobadge":false,
+            "snippet":{
+                "wait3":true,
+                "wait":false,
+                "event":true,
+                "new":false,
+                "free":false,
+                "age":0,
+                "up":false,
+                "theme":1,
+                "cate":"로맨스",
+                "info":"96.7만",
+                "dot1":true,
+                "dot2":true,
+                "relation":false
+            }
+        },
+        {
+            "id":1,
+            "thumb":"./assets/images/main4.png",
+            "title":{
+                "name":"카르세아린",
+                "img":"./assets/images/main4-2.png"
+            },
+            "desc":"무단가출 드래곤 아린의 인간계 모험기",
+            "nobadge":false,
+            "snippet":{
+                "wait3":false,
+                "wait":false,
+                "event":false,
+                "new":false,
+                "free":true,
+                "age":0,
+                "up":true,
+                "theme":1,
+                "cate":"소년",
+                "info":"921.1만",
+                "dot1":true,
+                "dot2":true,
+                "relation":true
+            }
+        }
+    ]
+}

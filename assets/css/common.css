@@ -6,13 +6,3 @@
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
 }
-
-
-/* PC 1280px ~ [1025px] */
-@media (max-width:1280px) {}
-
-/* 태블릿 1024px ~ [768px] */
-@media (max-width:1024px) {}
-
-/* 모바일 767px ~ [320px] */
-@media (max-width:767px) {}

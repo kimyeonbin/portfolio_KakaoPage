@@ -82,7 +82,7 @@ $(function(){
             autoplay: {
                     delay: 1700,
                     disableOnInteraction: false
-                },
+            },
             pagination:{
                 el:'.fraction',
                 type:'fraction'

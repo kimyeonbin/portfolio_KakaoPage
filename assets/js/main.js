@@ -372,8 +372,16 @@ $(function(){
                 },
             }
         });
-        bookSlide.disable();
 
+        $(function(){
+            if (window.innerWidth >= 768) {
+                bookSlide.disable();
+                bookSlide.autoplay.disable();
+            } else {
+                bookSlide.enable();
+                bookSlide.autoplay.start();
+            }
+        });
         $(window).resize(function(){
             if(window.innerWidth >= 768){
                 bookSlide.disable();

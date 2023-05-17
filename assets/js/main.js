@@ -94,8 +94,8 @@ $(function(){
                     centeredSlides:true,
                 }
             }
-        })
-    })
+        });
+    });
     
 
     /**
@@ -108,7 +108,7 @@ $(function(){
             allData=json.items;
             result = allData.filter(function(data){
                 return data.sort.indexOf(sortNum) >= 0;
-            })
+            });
             let html='';
             result.forEach(element => {
 
@@ -168,8 +168,8 @@ $(function(){
                 </li>`;
             });
             $(frame).html(html);
-        })
-    }
+        });
+    };
     /**
      * @param sortnum
      * @param frame
@@ -181,17 +181,17 @@ $(function(){
      * @sort4 = #영상화까지! 3다무 웹툰
      * @sort5 = 신작 웹툰 베스트
      */
-    productList(1,'#list1',1)
-    productList(2,'#list2',1)
-    productList(3,'#list3',2)
-    productList(4,'#list4',1)
-    productList(5,'#list5',1)
+    productList(1,'#list1',1);
+    productList(2,'#list2',1);
+    productList(3,'#list3',2);
+    productList(4,'#list4',1);
+    productList(5,'#list5',1);
 
     const prdSlide = new Swiper('.prd-slide',{
         slidesPerView: 'auto',
         spaceBetween:3,
         freeMode: true,
-    })
+    });
 
 
     /**
@@ -204,7 +204,7 @@ $(function(){
             allData=json.items;
             result = allData.filter(function(data){
                 return data.sort.indexOf(sortNum) >= 0;
-            })
+            });
             let html='';
             let rank=1;
             result.forEach(element => {
@@ -260,8 +260,8 @@ $(function(){
                 rank++;
             });
             $(frame).html(html);
-        })
-    }
+        });
+    };
     /**
      * @param sortnum
      * @param frame
@@ -276,7 +276,7 @@ $(function(){
 
         $(this).addClass('active').siblings().removeClass('active');
         $(target).addClass('active').siblings().removeClass('active');
-    })
+    });
 
 
     /**
@@ -371,7 +371,7 @@ $(function(){
                     spaceBetween:10,
                 },
             }
-        })
+        });
         bookSlide.disable();
 
         $(window).resize(function(){
@@ -382,8 +382,8 @@ $(function(){
                 bookSlide.enable();
                 bookSlide.autoplay.start();
             }
-        })
-    })
+        });
+    });
 
 
     /**
@@ -412,5 +412,5 @@ $(function(){
      */
     $('.btn-addr').click(function(){
         $('.addr-area').toggleClass('on');
-    })
-})
+    });
+});

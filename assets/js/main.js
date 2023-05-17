@@ -374,10 +374,10 @@ $(function(){
         });
 
         $(function(){
-            if (window.innerWidth >= 768) {
+            if(window.innerWidth >= 768) {
                 bookSlide.disable();
                 bookSlide.autoplay.disable();
-            } else {
+            }else{
                 bookSlide.enable();
                 bookSlide.autoplay.start();
             }

@@ -29,7 +29,7 @@ $(function(){
                 default:
                     ageEl='';
                     break;
-            }
+            };
             switch (element.snippet.theme) {
                 case 1:
                     themeEl='웹툰';
@@ -46,7 +46,7 @@ $(function(){
                 default:
                     themeEl='';
                     break;
-            }
+            };
 
             html+=`<li class="swiper-slide main-item ${typeClass}">
             <a href="">
@@ -130,7 +130,7 @@ $(function(){
                     default:
                         ageEl='';
                         break;
-                }
+                };
                 switch (element.snippet.theme) {
                     case 1:
                         themeEl='웹툰';
@@ -144,7 +144,7 @@ $(function(){
                     default:
                         themeEl='책';
                         break;
-                }
+                };
                 descEl = (type === 1)?element.snippet.info:themeEl
 
                 html+=`<li class="swiper-slide">
@@ -226,7 +226,7 @@ $(function(){
                     default:
                         ageEl='';
                         break;
-                }
+                };
 
                 html+=`<li class="prd-item">
                 <a href="">
@@ -266,8 +266,8 @@ $(function(){
      * @param sortnum
      * @param frame
      */
-    rankList(1,'#rank1')
-    rankList(2,'#rank2')
+    rankList(1,'#rank1');
+    rankList(2,'#rank2');
 
     $('.sc-ranking .group-nav a').click(function(e){
         e.preventDefault();
@@ -307,7 +307,7 @@ $(function(){
                 default:
                     ageEl='';
                     break;
-            }
+            };
             switch (element.snippet.theme) {
                 case 1:
                     themeEl='웹툰';
@@ -324,7 +324,7 @@ $(function(){
                 default:
                     themeEl='';
                     break;
-            }
+            };
 
             html+=`<li class="swiper-slide book-item ${typeClass}">
             <a href="">
@@ -380,7 +380,7 @@ $(function(){
             }else{
                 bookSlide.enable();
                 bookSlide.autoplay.start();
-            }
+            };
         });
         $(window).resize(function(){
             if(window.innerWidth >= 768){
@@ -389,7 +389,7 @@ $(function(){
             }else{
                 bookSlide.enable();
                 bookSlide.autoplay.start();
-            }
+            };
         });
     });
 

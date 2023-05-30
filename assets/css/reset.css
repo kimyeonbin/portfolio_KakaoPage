@@ -42,13 +42,13 @@ table{
 
 ::-webkit-scrollbar{
     width: 17px;
-  }
+}
 ::-webkit-scrollbar-thumb{
     background: #6e6e6e;
-  }
+}
 ::-webkit-scrollbar-track{
     background: rgb(63, 63, 63);
-  }
+}
 
 body{
     font-family: 'Pretendard', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;

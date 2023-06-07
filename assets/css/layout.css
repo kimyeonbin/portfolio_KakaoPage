@@ -146,6 +146,7 @@
 }
 .footer .addr-area.on .addr-box > div{ 
     display: flex; 
+    flex-wrap: wrap;
 }
 
 .footer .addr-area .btn-addr{ 

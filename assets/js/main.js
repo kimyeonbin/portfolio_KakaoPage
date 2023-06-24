@@ -75,8 +75,8 @@ $(function(){
             slidesPerView: 1,
             loop: true,
             autoplay: {
-                    delay: 1700,
-                    disableOnInteraction: false
+                delay: 1700,
+                disableOnInteraction: false
             },
             pagination: {
                 el: '.fraction',
@@ -92,7 +92,7 @@ $(function(){
         });
     });
     // 작품리스트
-    function productList(sortNum,frame,type){
+    function productList(sortNum, frame, type){
         fetch('./assets/data/productData.json')
         .then(res => res.json())
         .then(json => {
@@ -134,7 +134,7 @@ $(function(){
                         themeEl = '책';
                         break;
                 };
-                descEl = (type === 1)?element.snippet.info : themeEl
+                descEl = (type === 1) ? element.snippet.info : themeEl
                 html += `<li class="swiper-slide">
                 <a href="">
                     <div class="img-area">
@@ -180,7 +180,7 @@ $(function(){
         freeMode: true
     });
     // 실시간랭킹
-    function rankList(sortNum,frame){
+    function rankList(sortNum, frame){
         fetch('./assets/data/rankData.json')
         .then(res => res.json())
         .then(json => {

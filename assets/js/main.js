@@ -71,7 +71,6 @@ $(function(){
             </li>`;
         });
         $('#mainList').html(html);
-
         const mainSlide = new Swiper('.main-slide',{
             slidesPerView: 1,
             loop: true,
@@ -136,7 +135,6 @@ $(function(){
                         break;
                 };
                 descEl = (type === 1)?element.snippet.info : themeEl
-
                 html += `<li class="swiper-slide">
                 <a href="">
                     <div class="img-area">

@@ -250,8 +250,8 @@ $(function(){
      * @param sortnum
      * @param frame
      */
-    rankList(1,'#rank1');
-    rankList(2,'#rank2');
+    rankList(1, '#rank1');
+    rankList(2, '#rank2');
     $('.sc-ranking .group-nav a').click(function(e){
         e.preventDefault();
         target=$(this).data('prd');

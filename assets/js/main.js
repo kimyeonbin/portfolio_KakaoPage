@@ -74,6 +74,11 @@ $(function(){
         const mainSlide = new Swiper('.main-slide',{
             slidesPerView: 1,
             loop: true,
+            a11y: {
+                prevSlideMessage: '이전 슬라이드',
+                nextSlideMessage: '다음 슬라이드',
+                slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
+            },
             autoplay: {
                 delay: 1700,
                 disableOnInteraction: false
@@ -300,7 +305,6 @@ $(function(){
                     themeEl = '';
                     break;
             };
-
             html += `<li class="swiper-slide book-item ${typeClass}">
             <a href="">
                 <div class="img-area">
@@ -330,6 +334,11 @@ $(function(){
         $('#bookList').html(html);  
         const bookSlide = new Swiper('.book-slide',{
             loop: true,
+            a11y: {
+                prevSlideMessage: '이전 슬라이드',
+                nextSlideMessage: '다음 슬라이드',
+                slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
+            },
             slidesPerView: 1,
             autoplay: {
                     delay: 1700,

@@ -181,17 +181,13 @@
     padding-bottom: 32px;
 }
 /* common */
-.flex-area{ 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
+.sub-area{ 
     height: 48px;
 }
-.flex-area .headline{ 
-    flex: 1; 
+.sub-area .headline{ 
     font-size: 19px; 
-    font-weight: 700; 
-    line-height: 24px; 
+    line-height: 48px; 
+    font-weight: 700;
     color: #222; 
     white-space: nowrap; 
     overflow: hidden; 
@@ -230,6 +226,18 @@
 .prd-list .img-area .badge-box .right{ 
     display: flex; 
     gap:2px;
+}
+.sc-list{
+    position: relative;
+}
+.sc-list .btn-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
 }
 /* type1 */
 .sc-list.type1 .prd-slide .swiper-slide{
@@ -305,7 +313,10 @@
     color: #fff; 
     opacity: 0.8; 
 }
-.sc-ranking .flex-area2{ 
+.sc-ranking{
+    position: relative;
+}
+.sc-ranking .sub-area2{ 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -372,11 +383,26 @@
     display: flex; 
     gap: 16px;
 }
-.sc-book .flex-area{ 
+.sc-ranking .btn-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
+}
+.sc-book{
+    position: relative;
+}
+.sc-book .sub-area{ 
     padding: 0 15px; 
 }
 .sc-book .book-slide{ 
     margin: 0 15px; 
+}
+.sc-event{
+    position: relative;
 }
 .sc-event .event-list{ 
     display: grid; 
@@ -386,6 +412,15 @@
 .sc-event .event-list .img-area img{ 
     width: 100%; 
     border-radius: 2px; 
+}
+.sc-event .btn-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
 }
 .sc-app{ 
     margin-bottom: 24px; 

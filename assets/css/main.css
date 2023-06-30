@@ -2,8 +2,6 @@
     padding-left: 15px; 
     padding-right: 15px; 
 }
-
-
 .sc-main{ 
     padding-top: 100px; 
 }
@@ -75,8 +73,6 @@
 .main-item.nobadge .text-area .text-wrap{
     margin: 0;
 }
-
-
 .book-item a{ 
     display: flex; 
     flex-direction: column; 
@@ -125,8 +121,6 @@
     margin-left: 3px; 
     font-size: 11px; 
 }
-
-
 .sc-ad{ 
     position: relative; 
     margin-top: 15px; 
@@ -152,7 +146,6 @@
     height: 15px; 
     margin: 4px 14px 2px 2px; 
 }
-
 .sc-todays{ 
     position: relative; margin-top: 15px; 
     margin-bottom: 5px; 
@@ -178,8 +171,6 @@
     line-height: 18px; 
     color: #f09605; 
 }
-
-
 .pb16{
     padding-bottom: 16px;
 }
@@ -189,8 +180,6 @@
 .pb32{
     padding-bottom: 32px;
 }
-
-
 /* common */
 .flex-area{ 
     display: flex; 
@@ -208,8 +197,6 @@
     overflow: hidden; 
     text-overflow: ellipsis; 
 }
-
-
 /* common */
 .prd-slide{ 
     overflow: initial; 
@@ -244,8 +231,6 @@
     display: flex; 
     gap:2px;
 }
-
-
 /* type1 */
 .sc-list.type1 .prd-slide .swiper-slide{
     width: 118px;
@@ -271,8 +256,6 @@
     color: #fff; 
     opacity: 0.8; 
 }
-
-
 /* type2 */
 .sc-list.type2 .prd-slide .swiper-slide{
     width: 94px;
@@ -295,8 +278,6 @@
     font-size: 11px; 
     color: #7a7a7a; 
 }
-
-
 /* type3 */
 .sc-list.type3 .prd-list{ 
     display: grid; 
@@ -324,8 +305,6 @@
     color: #fff; 
     opacity: 0.8; 
 }
-
-
 .sc-ranking .flex-area2{ 
     display: flex; 
     justify-content: space-between; 
@@ -393,15 +372,12 @@
     display: flex; 
     gap: 16px;
 }
-
-
 .sc-book .flex-area{ 
     padding: 0 15px; 
 }
 .sc-book .book-slide{ 
     margin: 0 15px; 
 }
-
 .sc-event .event-list{ 
     display: grid; 
     grid-template-columns: repeat(2, 1fr); 
@@ -411,7 +387,6 @@
     width: 100%; 
     border-radius: 2px; 
 }
-
 .sc-app{ 
     margin-bottom: 24px; 
     background: #f3f3f3; 
@@ -426,19 +401,6 @@
     height: 110px; 
     object-fit: contain; 
 }
-
-
-/* PC 1280px ~ [1025px] */
-@media (max-width:1280px) {
-
-}
-
-/* 태블릿 1024px ~ [768px] */
-@media (max-width:1024px) {
-    
-}
-
-/* 모바일 767px ~ [320px] */
 @media (max-width:767px) {
     .main-slide .control-wrap{ 
         bottom: 12px; 

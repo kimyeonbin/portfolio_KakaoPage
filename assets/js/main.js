@@ -337,7 +337,7 @@ $(function(){
             a11y: {
                 prevSlideMessage: '이전 슬라이드',
                 nextSlideMessage: '다음 슬라이드',
-                slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
+                slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드입니다.',
             },
             slidesPerView: 1,
             autoplay: {
